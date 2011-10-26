@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90493790142B57CC00B6C0D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9049378F142B57CC00B6C0D7 /* UIKit.framework */; };
+		90493792142B57CC00B6C0D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90493791142B57CC00B6C0D7 /* Foundation.framework */; };
+		90493794142B57CC00B6C0D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90493793142B57CC00B6C0D7 /* CoreGraphics.framework */; };
+		90493796142B57CC00B6C0D7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90493795142B57CC00B6C0D7 /* CoreData.framework */; };
+		9049379C142B57CC00B6C0D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9049379A142B57CC00B6C0D7 /* InfoPlist.strings */; };
+		9049379F142B57CC00B6C0D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049379E142B57CC00B6C0D7 /* main.m */; };
+		904937A2142B57CC00B6C0D7 /* ZooAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 904937A1142B57CC00B6C0D7 /* ZooAppDelegate.m */; };
+		904937A5142B57CC00B6C0D7 /* Zoo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 904937A3142B57CC00B6C0D7 /* Zoo.xcdatamodeld */; };
+		904937A9142B57CC00B6C0D7 /* ZooAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 904937A8142B57CC00B6C0D7 /* ZooAppDelegate_iPhone.m */; };
+		904937AC142B57CC00B6C0D7 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 904937AA142B57CC00B6C0D7 /* MainWindow_iPhone.xib */; };
+		904937B0142B57CC00B6C0D7 /* ZooAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 904937AF142B57CC00B6C0D7 /* ZooAppDelegate_iPad.m */; };
+		904937B3142B57CC00B6C0D7 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 904937B1142B57CC00B6C0D7 /* MainWindow_iPad.xib */; };
+		90C5FF6614586475004FF411 /* Animals.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C5FF6514586475004FF411 /* Animals.m */; };
+		90C5FF6914586475004FF411 /* Keepers.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C5FF6814586475004FF411 /* Keepers.m */; };
+		90C5FF90145869C5004FF411 /* CoreDataInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C5FF8F145869C5004FF411 /* CoreDataInterface.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9049378B142B57CC00B6C0D7 /* Zoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9049378F142B57CC00B6C0D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		90493791142B57CC00B6C0D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		90493793142B57CC00B6C0D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		90493795142B57CC00B6C0D7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		90493799142B57CC00B6C0D7 /* Zoo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zoo-Info.plist"; sourceTree = "<group>"; };
+		9049379B142B57CC00B6C0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9049379D142B57CC00B6C0D7 /* Zoo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zoo-Prefix.pch"; sourceTree = "<group>"; };
+		9049379E142B57CC00B6C0D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		904937A0142B57CC00B6C0D7 /* ZooAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZooAppDelegate.h; sourceTree = "<group>"; };
+		904937A1142B57CC00B6C0D7 /* ZooAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZooAppDelegate.m; sourceTree = "<group>"; };
+		904937A4142B57CC00B6C0D7 /* Zoo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zoo.xcdatamodel; sourceTree = "<group>"; };
+		904937A7142B57CC00B6C0D7 /* ZooAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZooAppDelegate_iPhone.h; path = iPhone/ZooAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		904937A8142B57CC00B6C0D7 /* ZooAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZooAppDelegate_iPhone.m; path = iPhone/ZooAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		904937AB142B57CC00B6C0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		904937AE142B57CC00B6C0D7 /* ZooAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZooAppDelegate_iPad.h; path = iPad/ZooAppDelegate_iPad.h; sourceTree = "<group>"; };
+		904937AF142B57CC00B6C0D7 /* ZooAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZooAppDelegate_iPad.m; path = iPad/ZooAppDelegate_iPad.m; sourceTree = "<group>"; };
+		904937B2142B57CC00B6C0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		90C5FF6414586475004FF411 /* Animals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animals.h; sourceTree = "<group>"; };
+		90C5FF6514586475004FF411 /* Animals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animals.m; sourceTree = "<group>"; };
+		90C5FF6714586475004FF411 /* Keepers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keepers.h; sourceTree = "<group>"; };
+		90C5FF6814586475004FF411 /* Keepers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keepers.m; sourceTree = "<group>"; };
+		90C5FF8E145869C5004FF411 /* CoreDataInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataInterface.h; sourceTree = "<group>"; };
+		90C5FF8F145869C5004FF411 /* CoreDataInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataInterface.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90493788142B57CC00B6C0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90493790142B57CC00B6C0D7 /* UIKit.framework in Frameworks */,
+				90493792142B57CC00B6C0D7 /* Foundation.framework in Frameworks */,
+				90493794142B57CC00B6C0D7 /* CoreGraphics.framework in Frameworks */,
+				90493796142B57CC00B6C0D7 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90493780142B57CB00B6C0D7 = {
+			isa = PBXGroup;
+			children = (
+				90493797142B57CC00B6C0D7 /* Zoo */,
+				9049378E142B57CC00B6C0D7 /* Frameworks */,
+				9049378C142B57CC00B6C0D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9049378C142B57CC00B6C0D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9049378B142B57CC00B6C0D7 /* Zoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9049378E142B57CC00B6C0D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9049378F142B57CC00B6C0D7 /* UIKit.framework */,
+				90493791142B57CC00B6C0D7 /* Foundation.framework */,
+				90493793142B57CC00B6C0D7 /* CoreGraphics.framework */,
+				90493795142B57CC00B6C0D7 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90493797142B57CC00B6C0D7 /* Zoo */ = {
+			isa = PBXGroup;
+			children = (
+				90C5FF8D14586999004FF411 /* Core Data  */,
+				904937A0142B57CC00B6C0D7 /* ZooAppDelegate.h */,
+				904937A1142B57CC00B6C0D7 /* ZooAppDelegate.m */,
+				904937A6142B57CC00B6C0D7 /* iPhone */,
+				904937AD142B57CC00B6C0D7 /* iPad */,
+				90493798142B57CC00B6C0D7 /* Supporting Files */,
+			);
+			path = Zoo;
+			sourceTree = "<group>";
+		};
+		90493798142B57CC00B6C0D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90493799142B57CC00B6C0D7 /* Zoo-Info.plist */,
+				9049379A142B57CC00B6C0D7 /* InfoPlist.strings */,
+				9049379D142B57CC00B6C0D7 /* Zoo-Prefix.pch */,
+				9049379E142B57CC00B6C0D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		904937A6142B57CC00B6C0D7 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				904937A7142B57CC00B6C0D7 /* ZooAppDelegate_iPhone.h */,
+				904937A8142B57CC00B6C0D7 /* ZooAppDelegate_iPhone.m */,
+				904937AA142B57CC00B6C0D7 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		904937AD142B57CC00B6C0D7 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				904937AE142B57CC00B6C0D7 /* ZooAppDelegate_iPad.h */,
+				904937AF142B57CC00B6C0D7 /* ZooAppDelegate_iPad.m */,
+				904937B1142B57CC00B6C0D7 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		90C5FF8D14586999004FF411 /* Core Data  */ = {
+			isa = PBXGroup;
+			children = (
+				90C5FF6414586475004FF411 /* Animals.h */,
+				90C5FF6514586475004FF411 /* Animals.m */,
+				90C5FF6714586475004FF411 /* Keepers.h */,
+				90C5FF6814586475004FF411 /* Keepers.m */,
+				904937A3142B57CC00B6C0D7 /* Zoo.xcdatamodeld */,
+				90C5FF8E145869C5004FF411 /* CoreDataInterface.h */,
+				90C5FF8F145869C5004FF411 /* CoreDataInterface.m */,
+			);
+			name = "Core Data ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9049378A142B57CC00B6C0D7 /* Zoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904937B6142B57CC00B6C0D7 /* Build configuration list for PBXNativeTarget "Zoo" */;
+			buildPhases = (
+				90493787142B57CC00B6C0D7 /* Sources */,
+				90493788142B57CC00B6C0D7 /* Frameworks */,
+				90493789142B57CC00B6C0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zoo;
+			productName = Zoo;
+			productReference = 9049378B142B57CC00B6C0D7 /* Zoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90493782142B57CB00B6C0D7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 90493785142B57CB00B6C0D7 /* Build configuration list for PBXProject "Zoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 90493780142B57CB00B6C0D7;
+			productRefGroup = 9049378C142B57CC00B6C0D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9049378A142B57CC00B6C0D7 /* Zoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90493789142B57CC00B6C0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9049379C142B57CC00B6C0D7 /* InfoPlist.strings in Resources */,
+				904937AC142B57CC00B6C0D7 /* MainWindow_iPhone.xib in Resources */,
+				904937B3142B57CC00B6C0D7 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90493787142B57CC00B6C0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9049379F142B57CC00B6C0D7 /* main.m in Sources */,
+				904937A2142B57CC00B6C0D7 /* ZooAppDelegate.m in Sources */,
+				904937A5142B57CC00B6C0D7 /* Zoo.xcdatamodeld in Sources */,
+				904937A9142B57CC00B6C0D7 /* ZooAppDelegate_iPhone.m in Sources */,
+				904937B0142B57CC00B6C0D7 /* ZooAppDelegate_iPad.m in Sources */,
+				90C5FF6614586475004FF411 /* Animals.m in Sources */,
+				90C5FF6914586475004FF411 /* Keepers.m in Sources */,
+				90C5FF90145869C5004FF411 /* CoreDataInterface.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9049379A142B57CC00B6C0D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9049379B142B57CC00B6C0D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		904937AA142B57CC00B6C0D7 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904937AB142B57CC00B6C0D7 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		904937B1142B57CC00B6C0D7 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904937B2142B57CC00B6C0D7 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		904937B4142B57CC00B6C0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		904937B5142B57CC00B6C0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		904937B7142B57CC00B6C0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zoo/Zoo-Prefix.pch";
+				INFOPLIST_FILE = "Zoo/Zoo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		904937B8142B57CC00B6C0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zoo/Zoo-Prefix.pch";
+				INFOPLIST_FILE = "Zoo/Zoo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90493785142B57CB00B6C0D7 /* Build configuration list for PBXProject "Zoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904937B4142B57CC00B6C0D7 /* Debug */,
+				904937B5142B57CC00B6C0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904937B6142B57CC00B6C0D7 /* Build configuration list for PBXNativeTarget "Zoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904937B7142B57CC00B6C0D7 /* Debug */,
+				904937B8142B57CC00B6C0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		904937A3142B57CC00B6C0D7 /* Zoo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				904937A4142B57CC00B6C0D7 /* Zoo.xcdatamodel */,
+			);
+			currentVersion = 904937A4142B57CC00B6C0D7 /* Zoo.xcdatamodel */;
+			path = Zoo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 90493782142B57CB00B6C0D7 /* Project object */;
+}
